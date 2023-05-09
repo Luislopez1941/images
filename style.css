@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --color--blue-strom: #00348C;
+}
+
+.hero {
+    color: white;
+
+}
+
+.hero__container {
+    display: flex;
+    width: 90%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+
+.hero__logo {
+    width: 100%;
+}
+
+.hero__logo img {
+    width: 150px;
+}
+
+.hero__nav {
+    width: 700px;
+}
+
+.nav__items {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.nav__link {
+    text-decoration: none;
+    color: var(--color--blue-strom);
+    font-weight: 600;
+    
+}
+
+
+
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    
+    margin: 0 auto;
+}
+
+
+
+.main__container {
+    width: 90%;
+   
+    
+}
+
+.main__banner {
+    width: 100%;
+    height: 350px;
+    background-image: url("https://www.tripnow.mx/upload/normal/slider/bc5bbe47f2banner-home-mayo-copia.jpg");
+}
+
+.campo_busqueda {
+    width: 90%;
+    position: relative;
+    top: 200px;
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px -7px rgba(0, 0, 0, 0.742);
+   
+}
+
+.carrucel {
+    width: 90%;
+    padding-top: 150px;
+    margin: 0 auto;
+    
+}
+
+.carrucel h2 {
+    color: var(--color--blue-strom);
+}
+
+.carrucel__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.carrucel__container .item {
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px -7px rgba(179, 164, 164, 0.452);
+    
+}
+
+.banner-pago {
+    width: 100%;
+    margin-top: 50px;
+    
+
+}
+
+.banner-pago img {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.reservas {
+    margin-top: 50px;
+    width: 100%;
+    
+}
+
+.container__reservas {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.container__reservas .item {
+}
+
+.container__reservas img {
+    width: 80px;
+}
+
+.container__reservas .item {
+    display: flex;
+    width: 350px;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.container__reservas .item h3 {
+    color: var(--color--blue-strom);
+}
+
+.carrucel__2 {
+    margin-top: 50px;
+}
+
+.carrucel__2-container {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.carrucel__2-container .item {
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px -7px rgba(179, 164, 164, 0.452);
+}
+
+.banner__contact {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    
+}
+
+.banner__contact img {
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.certificaciones {
+    margin-top: 50px;
+}
+
+.container__certificaciones {
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.container__certificaciones img {
+    width: 200px;
+}
+
+.footer {
+    border-top: 2px solid #00348C;
+    
+    height: 300px;
+}
+
+.container__footer {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+     
+}
